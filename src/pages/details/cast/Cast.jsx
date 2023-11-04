@@ -13,7 +13,7 @@ const Cast = ({ data, loading }) => {
                     // console.log(data)
                     // console.log(url)
     const skeleton = () => {
-        
+
         return (
             <div className="skItem">
                 <div className="circle skeleton"></div>
