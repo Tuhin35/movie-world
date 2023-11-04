@@ -10,6 +10,7 @@ import {
 
 import "./style.scss";
 import ContentWrapper from "../ContentWrapper/ContentWrapper";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
@@ -32,16 +33,16 @@ const Footer = () => {
                 </div>
                 <div className="socialIcons">
                     <span className="icon">
-                        <FaFacebookF />
+                       <Link to='https://www.facebook.com/ariaan.tuhin'> <FaFacebookF /></Link>
                     </span>
                     <span className="icon">
-                        <FaInstagram />
+                      <Link to='https://www.instagram.com/raihan_tuhin/'>   <FaInstagram /></Link>
                     </span>
                     <span className="icon">
                         <FaTwitter />
                     </span>
                     <span className="icon">
-                        <FaLinkedin />
+                       <Link> <FaLinkedin /></Link>
                     </span>
                 </div>
             </ContentWrapper>
