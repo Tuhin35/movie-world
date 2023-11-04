@@ -2,8 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { fetchDataFromApi } from "../../utils/api";
 import Spinner from "../../components/spinner/Spinner";
-import ContentWrapper from "../../components/ContentWrapper/ContentWrapper";
-import InfiniteScroll from "react-infinite-scroll-component";
+import ContentWrapper from "../../components/ContentWrapper/ContentWrapper";import InfiniteScroll from "react-infinite-scroll-component";
 import MovieCard from "../../components/MovieCard/MovieCard";
 import './style.scss'
 const SearchResult = () => {

@@ -9,8 +9,7 @@ import useFetch from "../../hooks/useFetch";
 import { fetchDataFromApi } from "../../utils/api";
 
 import Spinner from "../../components/spinner/Spinner";
-import ContentWrapper from "../../components/ContentWrapper/ContentWrapper";
-import MovieCard from "../../components/MovieCard/MovieCard";
+import ContentWrapper from "../../components/ContentWrapper/ContentWrapper";import MovieCard from "../../components/MovieCard/MovieCard";
 import { useEffect, useState } from "react";
 
 let filters = {};
